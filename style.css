@@ -1,4 +1,4 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 100%;
-    max-width: 1140px;
-    padding: 0 15px;
+    max-width: 1140px; !important;
+    padding: 15px;
     /* 📍 Максимальная ширина для контейнера */
 }
 
@@ -95,15 +94,15 @@ select {
     background-position: right 12px top 50%;
 }
 
+
 select:hover,
 .text-field:hover {
     cursor: pointer;
     transform: translateY(-5px);
-    transition: 0.2s;
+    transform: 0.2s;
 
     /* 📍 Стили для выпадающего списка и текстового поля при наведении курсора */
 }
-
 
 .info-wrapper {
     display: flex;
