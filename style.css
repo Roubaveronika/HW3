@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.container {
-    outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
-    margin: 0 auto;
+.container { /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     height: 100%;
     max-width: 1140px;
