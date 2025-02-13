@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-.container { /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
+.container { 
     outline: 1px solid red;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 1140px !important;
-    padding: 15px;
     /* 📍 Максимальная ширина для контейнера */
 }
 
